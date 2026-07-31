@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753398167079",
+    "project_id": "armazem-areado",
+    "storage_bucket": "armazem-areado.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753398167079:android:2f5607b05de4ddcb4b0002",
+        "android_client_info": {
+          "package_name": "com.armazem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtLJa7PL9c8UBprPaID7hqVlZjdHP5tSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
