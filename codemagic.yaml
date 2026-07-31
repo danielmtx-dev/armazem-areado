@@ -7,6 +7,10 @@ workflows:
       flutter: stable
 
     scripts:
+      - name: Regenerar plataforma Android
+        script: |
+          flutter create --platforms=android .
+
       - name: Install dependencies
         script: |
           flutter pub get
@@ -17,3 +21,8 @@ workflows:
 
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
+
+    publishing:
+      email:
+        recipients:
+          - your@email.com
